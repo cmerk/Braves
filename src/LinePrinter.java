@@ -11,7 +11,10 @@ public class LinePrinter {
 	
 	public void multiPrint(int num) {
 		for(int i = 0; i < num; i++) {
-			System.out.println(string);
+			for (int j = 0; j < num; j++) {
+						System.out.print(string);
+			}
+			System.out.println();
 		}
 	}
 }
